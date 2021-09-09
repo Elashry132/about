@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+
+
+
+
 #navbar{
     width: 85%;
     border:red 1px solid;
@@ -21,6 +25,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 70%;
+    margin: 0 auto;
 }
 
 #sociallinks{
@@ -28,6 +33,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 #banner{
@@ -43,6 +49,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 
 }
 
@@ -54,6 +61,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 }
 #second h3{
     color: black;
@@ -62,6 +70,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 
 }
 #second p{
@@ -70,6 +79,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 }
 
 
@@ -86,11 +96,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
 }
 #parallax #playbutton{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 #playbutton{
     width: 77px;
@@ -103,10 +115,12 @@
     font-size: 30px;
     color: tomato;
 font-style: italic;
+margin: 0 auto;
 }
 #parallax h1{
     font-size: 110px;
     color: white;
+    margin: 0 auto;
 
 }
 
