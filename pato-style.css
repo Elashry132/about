@@ -1,176 +1,197 @@
 *{
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
-
-
-
-
-#navbar{
-    width: 85%;
-    border:red 1px solid;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
-    position: fixed;
-}
-
-
-
-#menuitems{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 70%;
-    margin: 0 auto;
-}
-
-#sociallinks{
-    width: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-#banner{
+div .wrap-menu-header {
+    position: absolute;
     width: 100%;
-    height: 445px;
-    background-image: url("img/bg-title-page-03.jpg");
-    background-position: center;
-    color: white;
-    font-size: 48px;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-
+    height: 120px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-top: 5px solid #ec1d25;}
+	
+element.style {
+    background-image: url(images/bg-title-page-03.jpg);
 }
 
-#second span{
-    color: rgb(148, 46, 46);
-    font-size: 35px;
-    font-style: italic;
-    text-transform: capitalize;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
+.bg-title-page {
+    width: 100%;
+    min-height: 545px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;}
+	.flex-c-m{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 }
-#second h3{
-    color: black;
+.p-b-80 {
+    padding-bottom: 80px;
+}
+.p-t-160 {
+    padding-top: 160px;
+}
+.tit6 {
+    font-weight: 700;
     font-size: 50px;
-    text-transform: uppercase;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-
-}
-#second p{
-    color: black;
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-
-#parallax{
-     /* The image used */
-  background-image: url("img/bg-intro-02.jpg");
-
-  /* Set a specific height */
-  height: 550px; width: 95%;
-  margin: 0 auto;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-}
-#parallax #playbutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-#playbutton{
-    width: 77px;
-    height: 77px;
-    border-radius: 50%;
-    background-color: white;
-    margin: 0 auto;
-}
-#parallax h3{
-    font-size: 30px;
-    color: tomato;
-font-style: italic;
-margin: 0 auto;
-}
-#parallax h1{
-    font-size: 110px;
     color: white;
-    margin: 0 auto;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#fourth{
-    text-align: center;
-    padding: 25px;
-
-}
-
-#fourth h2{
-    color: red;
-    font-style: italic;
-}
-
-
-
-#fourth h1{
-    font-size: 38px;
-    letter-spacing: 5px;
     text-transform: uppercase;
+}
+.t-center {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.bg2-pattern {
+    background-image: url(../images/icons/pattern2.png);
+    background-repeat: repeat;
+}
 
+.t-center {
+    text-align: center;
 }
-#fourthimg{
-    width: 350px;
-    height: 350px;
-    background-image: url("img/our-story-01.jpg");
-    border-radius: 15px;
-    background-size: 100%;
-    background-position:center ;
-    
+.p-r-15 {
+    padding-right: 15px;
 }
-#fourthimg:hover{
-    background-size: 120%;
-    transition: all 1.5s;
-    
+.p-l-15 {
+    padding-left: 15px;
+}
+.p-b-110 {
+    padding-bottom: 110px;
+}
+.p-t-116 {
+    padding-top: 116px;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+element.style {
+    background-image: url(images/header-menu-01.jpg);
+    background-position: center 344px;
+}
+.section-video {
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg1-pattern {
+    background-image: url(../images/icons/pattern1.png);
+    background-repeat: repeat;
+}
+.p-b-105 {
+    padding-bottom: 105px;
+}
+.p-t-120 {
+    padding-top: 120px;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+element.style {
+    background-image: url(images/bg-cover-video-02.jpg);
+    background-position: center 995.667px;
+}
+.parallax0 {
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.bgwhite {
+    background-color: white;
+}
+
+.p-b-95 {
+    padding-bottom: 95px;
+}
+.p-t-115 {
+    padding-top: 115px;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+.bg1-pattern {
+    background-image: url(../images/icons/pattern1.png);
+    background-repeat: repeat;
+}
+
+.p-b-85 {
+    padding-bottom: 85px;
+}
+.p-t-85 {
+    padding-top: 85px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
 }
