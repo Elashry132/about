@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    width: 95%;
+    /* border: red 1px solid; */
+    /* border-right: none; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+
+    position: fixed;
+    top: 5px;
+    left: 0;
+    transform: translateX(2.5%);
+}
+
+#menuItems{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#socialLinks{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 7%;
+    color: white;
+}
+#sideMenuIcon{
+    color: white;
+}
+
+/* banner */
+#banner{
+    width: 100%;
+    height: 445px;
+    background-image: url("images/bg-cover-video-02.jpg");
+    background-position: center;
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RECIPES */
+#recipies{
+    text-align: center;
+    padding: 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#recipiesText{
+    width: 45%;
+}
+#recipies h2{
+    color: red;
+    font-style: italic;
+}
+#recipies h1{
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+#recipiesImg{
+    width: 390px;
+    height: 390px;
+    border-radius: 15px;
+    background-image: url("images/our-story-01.jpg");
+    background-size: 100%;
+    background-position: center;
+    transition: all 1s;
+}
+
+#recipiesImg:hover{
+    background-size: 110%;
+    transition: all 1.5s;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #menuItems{
+        display: none;
+    }
+    #socialLinks{
+        width: 20%;
+    }
+    
+    #banner{
+        color: red;
+        font-size: 22px;
+    }
+
+    #recipiesText{
+        width: 75vw;
+    }
+    #recipiesImg{
+        width: 60vw;
+        height: 60vw;
+        margin-top: 5vh;
+    }
+}
+
+/* italian */
+
+#italian h3{
+    font-size: 30px;
+    color: rgb(219, 108, 108);
+    text-align: center;
+}
+#italian h1{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+#italian p{
+    text-align: center;
+}
+
+/* our video */
+
+#parallax{
+        /* The image used */
+        background-image: url("images/bg-intro-02.jpg");
+      
+        /* Set a specific height */
+        min-height: 500px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+#paralax, #playbutton{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+#parallax h3{
+    text-align: center;
+    font-size: 30px;
+    color: #d61c22;
+}
+
+
+#parallax{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#playbutton{
+   width: 77px;  height: 77px;
+   border-radius: 50%;
+   background-color: white;
+   margin: 0 auto;
+
+}
+
+#playbutton span{
+    color: black;
+}
+
+
+
+#romantic{
+    text-align: center;
+    padding: 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#romanticText{
+    width: 45%;
+}
+#romantic h3{
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+    text-align: center;
+}
+#romantic h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+#romanticimg{
+    
+    border-radius: 15px;
+    background-image: url("images/our-story-02.jpg");
+    background-size: 100%;
+    background-position: center;
+    transition: all 1s;
+    
+}
+
+#romanticimg:hover{
+    background-size: 110%;
+    transition: all 1.5s;
+}
+
+
+#parallax2{
+     /* The image used */
+     background-image: url("images/bg-cover-video-02.jpg");
+      
+     /* Set a specific height */
+     min-height: 500px;
+   
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: rgba(0,0,0,0.5);
+     background-position: center 62.3333px;
+}
+
+#chefs h3{
+    transform: translateY(-90%);
+    color: rgb(175, 53, 53);
+}
+
+#chefs h1{
+    transform: translateY(-50%);
+
+}
+
+
+#cards{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.onecard{
+    width: 400px;
+    border: 3px solid #555;
+    border-radius: 11px;
+    text-align: center;
+    padding: 15px;
+}
+
+.chefimg img{
+    position: relative;
+    top: 0;
+    transform: translateY(-10%);
+    
+}
+
+.chefimg img{
+    border-radius: 50%;
+    border: solid red 1px;
+
+
+}
+
+.onecard h2{
+    margin-top: 40px;
+}
+
+
+#signup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#signup span{
+    font-size: 35px;
+}
+.textarea{
+    border-radius: 10px;
+}
+
+.button{
+    border-radius: 10px;
+    background: #111111;
+}
+
+
+.button span{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
