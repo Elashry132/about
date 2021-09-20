@@ -58,7 +58,7 @@
 #recipies{
     text-align: center;
     padding: 35px;
-
+    background-image: url(images/icons/pattern2.png);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -116,6 +116,10 @@
 }
 
 /* italian */
+
+#italian{
+    background-image: url(images/icons/pattern2.png);
+}
 
 #italian h3{
     font-size: 30px;
